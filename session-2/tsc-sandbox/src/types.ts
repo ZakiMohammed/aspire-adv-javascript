@@ -28,3 +28,15 @@ class Car {
 const car: Car = new Car('john_doe', 1121);
 
 console.log(car);
+
+interface Product {
+  name: string;
+  price: number;
+}
+
+const product: Product = {
+  name: 'Laptop',
+  price: 1000,
+};
+
+console.log(product);
